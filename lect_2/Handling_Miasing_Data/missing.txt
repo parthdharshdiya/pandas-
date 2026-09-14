@@ -1,0 +1,8 @@
+data = {
+    "Name":['ram','shyam','ghanshyam','parth','meet','arshil','parth'],
+    "Age":[55,44,66,77,88,99,100],
+    "Salary":[50000,60000,70000,48000,99000,78000,88000],
+    "Performnce_score":[85,77,99,77,88,99,87]
+}
+df = pd.DataFrame(data);
+print(df);
